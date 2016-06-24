@@ -57,7 +57,7 @@ function bonus(nameArray) {
   if(nameArray[1].length === 4) {
     totalBonus += 0.05;
   }
-  if(parseInt(nameArray[2] > 65000)){
+  if(parseInt(nameArray[2] > 65000)&& totalBonus >= 1){
     totalBonus -=0.01;
   }
   if(totalBonus > 0.13){
