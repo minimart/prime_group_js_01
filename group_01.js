@@ -43,13 +43,16 @@ function bonus(nameArray) {
   // switch (nameArray[3]) {
   //   case 3:
   //       totalBonus += 0.04;
+  //        break;
   //   case 4:
   //       totalBonus += 0.06;
+  //        break;  
   //   case 5:
   //       totalBonus += 0.10;
   //     break;
   //   default:
   //     totalBonus += 0.00
+  //    break;
   // }
   if(nameArray[1].length === 4) {
     totalBonus += 0.05;
