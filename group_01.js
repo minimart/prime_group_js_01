@@ -46,7 +46,7 @@ function bonus(nameArray) {
   //        break;
   //   case 4:
   //       totalBonus += 0.06;
-  //        break;  
+  //        break;
   //   case 5:
   //       totalBonus += 0.10;
   //     break;
@@ -58,7 +58,7 @@ function bonus(nameArray) {
     totalBonus += 0.05;
   }
   if(parseInt(nameArray[2] > 65000)){
-    totalBonus +=0.01;
+    totalBonus -=0.01;
   }
   if(totalBonus > 0.13){
     totalBonus = 0.13;
